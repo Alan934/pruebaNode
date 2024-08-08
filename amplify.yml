@@ -1,17 +1,19 @@
 version: 1
-applications:
-  backend:
-    phases:
-      preBuild:
-        commands:
-          - npm ci
-      build:
-        commands:
-          - npm run build # Si tienes un proceso de construcción en tu backend
-    artifacts:
-      baseDirectory: . # No se generan artefactos de frontend
-      files:
-        - '**/*'
-    cache:
-      paths:
-        - node_modules/**/*
+backend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - npm run build # Solo si tienes un comando de build, de lo contrario, puedes omitirlo
+    postBuild:
+      commands:
+        - echo "Backend build completed."
+  artifacts:
+    baseDirectory: .
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
