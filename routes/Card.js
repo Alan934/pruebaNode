@@ -10,7 +10,33 @@ const {getItem, getItems, createItem, updateItem, deleteItem,recoverCardById} = 
  *   name: Card
  *   description: Operaciones sobre las cards
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Card:
+ *       type: object
+ *       required:
+ *         - nombreCard
+ *         - urlImagenCard
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID de la card
+ *         nombreCard:
+ *           type: string
+ *           description: Nombre de la card
+ *         urlImagenCard:
+ *           type: string
+ *           description: URL de la imagen de la card
+ *         seccionCardId:
+ *           type: integer
+ *           description: ID de la sección de la card
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave de la card
+ */
 /**
  * @swagger
  * /api/card:

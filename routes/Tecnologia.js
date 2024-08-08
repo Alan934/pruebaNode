@@ -10,7 +10,41 @@ const {getAlltecnologias, getTecnologiaById, createTecnologia,deleteTecnologiaBy
  *   name: Tecnologia
  *   description: Operaciones de tecnologías
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Tecnologia:
+ *       type: object
+ *       required:
+ *         - nombreTecnologia
+ *         - urlImagenTecnologia
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID de la tecnología
+ *         nombreTecnologia:
+ *           type: string
+ *           description: Nombre de la tecnología
+ *         urlImagenTecnologia:
+ *           type: string
+ *           description: URL de la imagen de la tecnología
+ *         seccionTecnologiaId:
+ *           type: integer
+ *           description: ID de la sección de tecnología
+ *         createdAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de creación
+ *         updatedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de última actualización
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave
+ */
 /**
  * @swagger
  * /api/tecnologia:

@@ -17,7 +17,29 @@ const {
  *   name: SubCategoria
  *   description: Operaciones de subcategorías
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     SubCategoria:
+ *       type: object
+ *       required:
+ *         - nombreSubCategoria
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID auto-generado de la subcategoria
+ *         nombreSubCategoria:
+ *           type: string
+ *           description: Nombre de la subcategoria
+ *         categoriaId:
+ *           type: integer
+ *           description: ID de la categoria asociada
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Marca de tiempo de eliminación suave
+ */
 /**
  * @swagger
  * /api/subcategoria:

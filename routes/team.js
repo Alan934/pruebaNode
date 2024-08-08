@@ -11,7 +11,33 @@ const checkRol = require("../middleware/rol");
  *   name: Team
  *   description: Operaciones de equipos
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Team:
+ *       type: object
+ *       required:
+ *         - teamDescription
+ *         - teamName
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID del equipo
+ *         teamDescription:
+ *           type: string
+ *           description: Descripción del equipo
+ *         teamName:
+ *           type: string
+ *           description: Nombre del equipo
+ *         subCategoriaId:
+ *           type: integer
+ *           description: ID de subCategoria relacionado
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave
+ */
 /**
  * @swagger
  * /api/team:

@@ -11,7 +11,33 @@ const checkRol = require("../middleware/rol")
  *   name: SeccionCard
  *   description: Operaciones para SeccionCard
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     SeccionCard:
+ *       type: object
+ *       required:
+ *         - tituloSeccionCard
+ *         - subTituloSeccionCard
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID de la Sección Card
+ *         tituloSeccionCard:
+ *           type: string
+ *           description: Título de la sección card
+ *         subTituloSeccionCard:
+ *           type: string
+ *           description: Subtítulo de la sección card
+ *         seccionGeneralId:
+ *           type: integer
+ *           description: ID de la sección general asociada
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave de la sección card
+ */
 /**
  * @swagger
  * /api/SeccionCard/{id}:

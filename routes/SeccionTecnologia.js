@@ -10,7 +10,33 @@ const checkRol = require("../middleware/rol")
  *   name: SeccionTecnologia
  *   description: Operaciones de la sección de tecnología
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     SeccionTecnologia:
+ *       type: object
+ *       required:
+ *         - tituloSeccionTecnologia
+ *         - subTituloSeccionTecnologia
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID de la sección de tecnología
+ *         tituloSeccionTecnologia:
+ *           type: string
+ *           description: Título de la sección de tecnología
+ *         subTituloSeccionTecnologia:
+ *           type: string
+ *           description: Subtítulo de la sección de tecnología (opcional)
+ *         subCategoriaId:
+ *           type: integer
+ *           description: ID de la subcategoría
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave de la sección de tecnología
+ */
 /**
  * @swagger
  * /api/secciontecnologia/{id}:

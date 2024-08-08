@@ -10,8 +10,33 @@ const checkRol = require("../middleware/rol")
  *   name: SeccionGeneral
  *   description: Operaciones sobre Secciones Generales
  */
-
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     SeccionGeneral:
+ *       type: object
+ *       required:
+ *         -  tituloSeccionGeneral
+ *         -  subTituloSeccionGeneral
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID de la Seccion General
+ *         tituloSeccionGeneral:
+ *           type: string
+ *           description: Título de la Seccion General
+ *         subTituloSeccionGeneral:
+ *           type: string
+ *           description: Subtítulo de la Seccion General
+ *         subCategoriaId:
+ *           type: integer
+ *           description: ID de la subcategoría asociada
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave de la Seccion General
+ */
 /**
  * @swagger
  * /api/secciongeneral/{id}:

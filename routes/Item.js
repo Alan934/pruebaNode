@@ -10,7 +10,52 @@ const {getAllItems, getItemById, createItem,deleteItemById,updateItemById,recove
  *   name: Item
  *   description: Operaciones de items
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Item:
+ *       type: object
+ *       required:
+ *         - subtituloItem
+ *         - tituloItem
+ *         - urlIconItem
+ *       properties:
+ *         subtituloItem:
+ *           type: string
+ *           description: Subtítulo del item
+ *         tituloItem:
+ *           type: string
+ *           description: Título del item
+ *         urlIconItem:
+ *           type: string
+ *           description: URL del ícono del item
+ *         id_banner:
+ *           type: integer
+ *           description: ID del banner asociado 
+ *         id_desplegable:
+ *           type: integer
+ *           description: ID del desplegable asociado 
+ *         id_metodologia:
+ *           type: integer
+ *           description: ID de la metodología asociada 
+ *         id_card:
+ *           type: integer
+ *           description: ID de la tarjeta asociada 
+ *         id_footer:
+ *           type: integer
+ *           description: ID del footer asociado 
+ *         id_sectionText:
+ *           type: integer
+ *           description: ID del texto de sección asociado 
+ *         id_bannerHero:
+ *           type: integer
+ *           description: ID del texto de bannerHero asociado 
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación 
+ */
 /**
  * @swagger
  * /api/item:

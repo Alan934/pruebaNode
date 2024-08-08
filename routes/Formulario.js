@@ -17,7 +17,42 @@ const {
  *   name: Formulario
  *   description: Operaciones de formularios
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Formulario:
+ *       type: object
+ *       required:
+ *         - nombreUsuario
+ *         - email
+ *         - empresa
+ *         - rubroEmpresa
+ *         - mensaje
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID autogenerado del formulario
+ *         nombreUsuario:
+ *           type: string
+ *           description: Nombre del usuario
+ *         email:
+ *           type: string
+ *           description: Email del usuario
+ *         empresa:
+ *           type: string
+ *           description: Empresa del usuario
+ *         rubroEmpresa:
+ *           type: string
+ *           description: Rubro de la empresa
+ *         mensaje:
+ *           type: string
+ *           description: Mensaje del usuario
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Marca de tiempo de eliminación suave
+ */
 /**
  * @swagger
  * /api/formulario:

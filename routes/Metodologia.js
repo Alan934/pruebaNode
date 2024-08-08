@@ -10,7 +10,37 @@ const {getAllMetodologias, getMetodologiaById, createMetodologia,deleteMetodolog
  *   name: Metodologia
  *   description: Operaciones de metodologias
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Metodologia:
+ *       type: object
+ *       required:
+ *         - tituloMetodologia
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID de la metodologia
+ *         tituloMetodologia:
+ *           type: string
+ *           description: Título de la metodologia
+ *         seccionMetodologiaId:
+ *           type: integer
+ *           description: ID de la sección de metodologia asociada
+ *         createdAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de creación de la metodologia
+ *         updatedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de última actualización de la metodologia
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación de la metodologia, si aplica (para eliminación suave)
+*/
 /**
  * @swagger
  * /api/metodologia:

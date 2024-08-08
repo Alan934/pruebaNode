@@ -11,7 +11,29 @@ const checkRol = require("../middleware/rol")
  *   name: Footer
  *   description: Operaciones de footers
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Footer:
+ *       type: object
+ *       required:
+ *         - titleFooter
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID auto-generado del footer
+ *         titleFooter:
+ *           type: string
+ *           description: Título del footer
+ *         subCategoriaId:
+ *           type: integer
+ *           description: ID de la subcategoría asociada
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave
+ */
 /**
  * @swagger
  * /api/footer:

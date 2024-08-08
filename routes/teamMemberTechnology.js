@@ -11,7 +11,41 @@ const checkRol = require("../middleware/rol");
  *   name: TeamMemberTechnologie
  *   description: Operaciones de tecnologías de miembros del equipo
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     TeamMemberTechnology:
+ *       type: object
+ *       required:
+ *         - URLIconTechnology
+ *         - technologyName
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID autogenerado del TeamMemberTechnology
+ *         URLIconTechnology:
+ *           type: string
+ *           description: URL del icono de la tecnología
+ *         technologyName:
+ *           type: string
+ *           description: Nombre de la tecnología
+ *         team_member_id:
+ *           type: integer
+ *           description: ID del miembro del equipo asociado
+ *         createdAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de creación
+ *         updatedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de última actualización
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave
+ */
 /**
  * @swagger
  * /api/teamMemberTechnology:

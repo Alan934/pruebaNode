@@ -17,7 +17,37 @@ const {
  *   name: BannerHero
  *   description: Operaciones de banners hero
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     BannerHero:
+ *       type: object
+ *       required:
+ *         - tituloBannerHero
+ *         - descripcionBannerHero
+ *         - urlImagenBannerHero
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID del banner hero
+ *         tituloBannerHero:
+ *           type: string
+ *           description: Título del banner hero
+ *         descripcionBannerHero:
+ *           type: string
+ *           description: Descripción del banner hero
+ *         urlImagenBannerHero:
+ *           type: string
+ *           description: URL de la imagen del banner hero
+ *         subCategoriaId:
+ *           type: integer
+ *           description: ID de la subcategoría
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave del banner hero
+ */
 /**
  * @swagger
  * /api/bannerhero:

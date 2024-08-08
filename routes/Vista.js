@@ -10,7 +10,30 @@ const checkRol = require("../middleware/rol");
  *   name: Vista
  *   description: Operaciones de vistas
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Vista:
+ *       type: object
+ *       required:
+ *         - nombreVista
+ *         - iconUrlVista
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID de la vista
+ *         nombreVista:
+ *           type: string
+ *           description: Nombre de la vista
+ *         iconUrlVista:
+ *           type: string
+ *           description: URL del ícono de la vista
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave del vista
+ */
 /**
  * @swagger
  * /api/vista:

@@ -10,7 +10,46 @@ const {getAllDesplegables, getDesplegableById, createDesplegable,deleteDesplegab
  *   name: Desplegable
  *   description: Operaciones de desplegables
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Desplegable:
+ *       type: object
+ *       required:
+ *         - tituloDesplegable
+ *         - textoDesplegable
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID único del desplegable
+ *           example: 1
+ *         tituloDesplegable:
+ *           type: string
+ *           description: Título del desplegable
+ *           example: "Título de ejemplo"
+ *         textoDesplegable:
+ *           type: string
+ *           description: Texto del desplegable
+ *           example: "Este es un texto descriptivo para el desplegable."
+ *         seccionDesplegableId:
+ *           type: integer
+ *           description: ID de la sección a la que pertenece el desplegable
+ *           example: 2
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Marca de tiempo de la eliminación suave
+ *           example: null
+ *         createdAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de creación del registro
+ *         updatedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de última actualización del registro
+ */
 /**
  * @swagger
  * /api/desplegable:

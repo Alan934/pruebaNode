@@ -18,10 +18,13 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 const CSS_URL = "/public/swagger-ui.css"; 
 
 app.use('/api', require('./routes'));
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs, {
-    customCssUrl: CSS_URL
-}));
 
+app.use('/api-swagger', swaggerUi.serve, swaggerUi.setup(swaggerDocs, {
+    customCss:
+      '.swagger-ui .opblock .opblock-summary-path-description-wrapper { align-items: center; display: flex; flex-wrap: wrap; gap: 0 10px; padding: 0 10px; width: 100%; }',
+    customCssUrl: CSS_URL,
+  }));
+  
 app.listen(port, () => {
     console.log(`Funcionando en: ${port}`);
 });

@@ -10,7 +10,41 @@ const checkRol = require("../middleware/rol");
  *   name: User
  *   description: Operaciones de usuarios
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     User:
+ *       type: object
+ *       required:
+ *         - name
+ *         - email
+ *         - age
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID del usuario
+ *         name:
+ *           type: string
+ *           description: Nombre del usuario
+ *         age:
+ *           type: integer
+ *           description: Edad del usuario
+ *         email:
+ *           type: string
+ *           description: Email del usuario
+ *         password:
+ *           type: string
+ *           description: Contraseña del usuario
+ *         role:
+ *           type: string
+ *           enum: [user, admin]
+ *           description: Rol del usuario
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave del usuario
+ */
 /**
  * @swagger
  * /api/user/{id}:

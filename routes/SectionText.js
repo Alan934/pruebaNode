@@ -10,7 +10,33 @@ const { getAllSectionText, getOneSectionText, createSectionText, updateSectionTe
  *   name: SectionText
  *   description: Operaciones con textos de secciones
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     SectionText:
+ *       type: object
+ *       required:
+ *         - subtitleSectionText
+ *         - titleSectionText
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID del texto de la sección
+ *         subtitleSectionText:
+ *           type: string
+ *           description: Subtítulo del texto de la sección
+ *         titleSectionText:
+ *           type: string
+ *           description: Título del texto de la sección
+ *         subCategoriaId:
+ *           type: integer
+ *           description: ID de la subcategoría relacionada
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave del texto de la sección
+ */
 /**
  * @swagger
  * /api/SectionText:

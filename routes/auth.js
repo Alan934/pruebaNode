@@ -11,8 +11,57 @@ const checkRol = require("../middleware/rol")
  *   name: Auth
  *   description: Operaciones de autenticación
  */
-
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     AuthRequestRegistrer:
+ *       type: object
+ *       required:
+ *         - email
+ *         - password
+ *       properties:
+ *         name:
+ *           type: string
+ *           description: Nombre del usuario (requerido solo para registro)
+ *         age:
+ *           type: integer
+ *           description: Edad del usuario (requerido solo para registro)
+ *         email:
+ *           type: string
+ *           description: Correo electrónico del usuario
+ *         password:
+ *           type: string
+ *           description: Contraseña del usuario
+ *       example:
+ *         name: 
+ *         age: 
+ *         email: 
+ *         password: 
+ */
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     AuthResponseLogin:
+ *       type: object
+ *       properties:
+ *         token:
+ *           type: string
+ *           description: Token JWT para autenticación
+ *         user:
+ *           type: object
+ *           properties:
+ *             email:
+ *               type: string
+ *               description: Correo electrónico del usuario
+ *             password:
+ *               type: string
+ *               description: Contraseña del usuario
+ *       example:
+ *           password:
+ *           email: 
+ */
 /**
  * @swagger
  * /api/auth/register:

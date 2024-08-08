@@ -17,7 +17,45 @@ const {
  *   name: Banner
  *   description: Operaciones de banners
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Banner:
+ *       type: object
+ *       required:
+ *         - tituloBanner
+ *         - urlImagenBanner
+ *         - subtituloBanner
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID del banner
+ *         tituloBanner:
+ *           type: string
+ *           description: Título del banner
+ *         subtituloBanner:
+ *           type: string
+ *           description: Subtítulo del banner
+ *         urlImagenBanner:
+ *           type: string
+ *           description: URL de la imagen del banner
+ *         subCategoriaId:
+ *           type: integer
+ *           description: ID de la subcategoría asociada
+ *         createdAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de creación
+ *         updatedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de actualización
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación 
+ */
 /**
  * @swagger
  * /api/banner:

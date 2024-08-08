@@ -10,7 +10,29 @@ const {getItem, getItems, createItem, updateItem, deleteItem,recoverCategoriaByI
  *   name: Categoria
  *   description: Operaciones de categorias
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Categoria:
+ *       type: object
+ *       required:
+ *         - nombreCategoria
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID auto-generado de la categoria
+ *         nombreCategoria:
+ *           type: string
+ *           description: Nombre de la categoria
+ *         vistaId:
+ *           type: integer
+ *           description: ID de la vista asociada
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Marca de tiempo de eliminación suave
+ */
 /**
  * @swagger
  * /api/categoria:

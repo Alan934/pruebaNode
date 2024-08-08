@@ -10,7 +10,33 @@ const checkRol = require("../middleware/rol")
  *   name: SeccionMetodologia
  *   description: Operaciones de SeccionMetodologia
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     SeccionMetodologia:
+ *       type: object
+ *       required:
+ *         - tituloSeccionMetodologia
+ *         - subTituloSeccionMetodologia
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID de la sección de metodología
+ *         tituloSeccionMetodologia:
+ *           type: string
+ *           description: Título de la sección de metodología
+ *         subTituloSeccionMetodologia:
+ *           type: string
+ *           description: Subtítulo de la sección de metodología
+ *         subCategoriaId:
+ *           type: integer
+ *           description: ID de la subcategoría asociada
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave de la sección de metodología
+ */
 /**
  * @swagger
  * /api/seccionmetodologia:

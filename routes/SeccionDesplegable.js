@@ -10,7 +10,29 @@ const { getOneSeccionDesplegable, getAllSeccionDesplegable, createSeccionDespleg
  *   name: SeccionDesplegable
  *   description: Operaciones de seccione desplegable
  */
-
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     SeccionDesplegable:
+ *       type: object
+ *       required:
+ *         - nombreSeccionDesplegable
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: ID de la sección desplegable
+ *         nombreSeccionDesplegable:
+ *           type: string
+ *           description: Nombre de la sección desplegable
+ *         subCategoriaId:
+ *           type: integer
+ *           description: ID de la subcategoría asociada
+ *         deletedAt:
+ *           type: string
+ *           format: date-time
+ *           description: Fecha de eliminación suave de la sección desplegable
+ */
 /**
  * @swagger
  * /api/SeccionDesplegable:
