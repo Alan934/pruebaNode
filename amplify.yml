@@ -1,19 +1,17 @@
 version: 1
-backend:
-  phases:
-    preBuild:
-      commands:
-        - npm ci
-    build:
-      commands:
-        - npm run build # Si necesitas construir algún código del backend, como TypeScript
-    postBuild:
-      commands:
-        - echo "Backend build completed."
-  artifacts:
-    baseDirectory: . # No se generan artefactos específicos
-    files:
-      - '**/*'
-  cache:
-    paths:
-      - node_modules/**/*
+applications:
+  backend:
+    phases:
+      preBuild:
+        commands:
+          - npm ci
+      build:
+        commands:
+          - npm run build # Si tienes un proceso de construcción en tu backend
+    artifacts:
+      baseDirectory: . # No se generan artefactos de frontend
+      files:
+        - '**/*'
+    cache:
+      paths:
+        - node_modules/**/*
