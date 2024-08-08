@@ -1,0 +1,18 @@
+[
+  { "idEquipo":1, "nameEquipo": "Sistemas", "integrantes": [
+      { "image": "/TeamPics/sistemas1.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Desarrollador Backend", "gitHubURL": "1", "linkedinURL": "1" },
+      { "image": "/TeamPics/sistemas3.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Desarrollador Backend", "gitHubURL": "1", "linkedinURL": "1" },
+      { "image": "/TeamPics/sistemas2.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Desarrollador Backend", "gitHubURL": "1", "linkedinURL": "1" },
+      { "image": "/TeamPics/sistemas4.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Desarrollador Backend", "gitHubURL": "1", "linkedinURL": "1" },
+      { "image": "/TeamPics/sistemas5.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Desarrollador Backend", "gitHubURL": "1", "linkedinURL": "1" },
+      { "image": "/TeamPics/sistemas6.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Desarrollador Backend", "gitHubURL": "1", "linkedinURL": "1" }
+    ] },
+  { "idEquipo":2, "nameEquipo": "Desarrollo Institucional", "integrantes": [
+      { "image": "/TeamPics/sistemas6.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Contador", "gitHubURL": "1", "linkedinURL": "1" },
+      { "image": "/TeamPics/sistemas5.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Recursos Humanos", "gitHubURL": "1", "linkedinURL": "1" },
+      { "image": "/TeamPics/sistemas4.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Contador", "gitHubURL": "1", "linkedinURL": "1" },
+      { "image": "/TeamPics/sistemas3.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Recursos Humanos", "gitHubURL": "1", "linkedinURL": "1" },
+      { "image": "/TeamPics/sistemas1.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Recursos Humanos", "gitHubURL": "1", "linkedinURL": "1" },
+      { "image": "/TeamPics/sistemas2.png", "nameIntegrante": "Rodrigo Perez", "rolIntegrante": "Recursos Humanos", "gitHubURL": "1", "linkedinURL": "1" }
+    ] }
+]

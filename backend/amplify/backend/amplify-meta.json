@@ -1,0 +1,28 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pruebanode-dev-51a9d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::533267374467:role/amplify-pruebanode-dev-51a9d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::533267374467:role/amplify-pruebanode-dev-51a9d-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pruebanode-dev-51a9d-deployment",
+      "UnauthRoleName": "amplify-pruebanode-dev-51a9d-unauthRole",
+      "StackName": "amplify-pruebanode-dev-51a9d",
+      "StackId": "arn:aws:cloudformation:us-east-1:533267374467:stack/amplify-pruebanode-dev-51a9d/65599300-55b7-11ef-a39a-12caa4d66de9",
+      "AmplifyAppId": "du9w43dvze7pi"
+    }
+  },
+  "function": {
+    "pruebanoded3bb684a": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+[
+    {"title": "Confidencialidad", "subCategoriaId":1, "items": ["Celebración de contrato de confidencialidad y de servicio"] },
+    {"title": "Descubrir","subCategoriaId":1, "items": ["Abordaje de cliente identificando necesidades y particularidades de interés"] },
+    {"title": "Propuesta","subCategoriaId":1, "items": ["Presentación de propuesta de trabajo con cronología de desarrollo"] },
+    {"title": "Maquetado","subCategoriaId":1, "items": ["Maquetado del proyecto abordando las necesidades del cliente"] },
+    {"title": "Desarrollo","subCategoriaId":1, "items": ["Desarrollo del producto con informes periódicos"] },
+    {"title": "Entrega","subCategoriaId":1, "items": ["Entrega del producto terminado"]},
+    
+    {"title": "Descubrir","subCategoriaId":2, "items": ["Comprendemos tus necesidades y objetivos a través de investigaciones y análisis, sentando las bases para el proyecto."]},
+    {"title": "Diseñar","subCategoriaId":2, "items": ["Transformamos los conocimientos en conceptos visuales, creando esquemas y prototipos que priorizan la usabilidad y la estética."]},
+    {"title": "Desarrollo","subCategoriaId":2, "items": ["Convertimos los diseños aprobados en un sitio web funcional y receptivo, utilizando tecnologías actuales y mejores prácticas de desarrollo."]},
+    {"title": "Validar","subCategoriaId":2, "items": ["Probamos exhaustivamente el sitio web para garantizar su calidad y cumplimiento con tus expectativas, incorporando tus comentarios para una entrega final satisfactoria."]},
+    {"title": "Capacitar","subCategoriaId":2, "items": ["Proporcionamos formación y documentación detallada sobre cómo gestionar el producto digital."]},
+   
+    {"title": "Empatizar","subCategoriaId":3, "items": ["Investigación con usuarios finales","Entrevistas y encuestas","Observación de comportamiento"]},
+    {"title": "Definir","subCategoriaId":3, "items": ["Identificación de necesidades y problemas clave","Creación de personas y mapas de empatía", "Definición clara del reto de diseño"]},
+    {"title": "Idear","subCategoriaId":3, "items": ["Sesiones de brainstorming","Generación de múltiples ideas y soluciones posibles", "Priorización de ideas para prototipado"]},
+    {"title": "Prototipar","subCategoriaId":3, "items": ["Creación de prototipos rápidos y de baja fidelidad","Desarrollo de wireframes y mockups", "Construcción de prototipos interactivos"]},
+    {"title": "Testear","subCategoriaId":3, "items": ["Pruebas de usabilidad con usuarios reales","Recopilación de feedback y análisis de resultados", "Iteración y refinamiento del diseño basado en insights"]}
+   
+   
+]

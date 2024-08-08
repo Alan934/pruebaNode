@@ -1,0 +1,211 @@
+[
+   {
+    "idSubCategoria":1,
+    "idSeccionGeneral": 1,
+    "nombreSeccionGeneral": "Te ofrecemos",
+    "seccionCard": [
+      {
+        "idSeccionCard": 1,
+        "nombreSeccionCard": "Servicios",
+        "cards": [
+          {
+            "idCard": 1,
+            "urlImagenCard": "/img/desarrollo_de_software.png",
+            "nombreCard": "Desarrollo de software",
+            "items": [
+              {
+                "idItem": 1,
+                "tituloItem": "-Desarrollo BackEnd"
+              },
+              {
+                "idItem": 2,
+                "tituloItem": "-Desarrollo FrontEnd"
+              },
+              {
+                "idItem": 3,
+                "tituloItem": "-Programas especializados"
+              }
+            ]
+          },
+          {
+            "idCard": 2,
+            "urlImagenCard": "/img/diseno_ux-ui.png",
+            "nombreCard": "Diseño UX/UI",
+            "items": [
+              {
+                "idItem": 1,
+                "tituloItem": "-Sitios Web"
+              },
+              {
+                "idItem": 2,
+                "tituloItem": "-Aplicaciones móviles"
+              },
+              {
+                "idItem": 3,
+                "tituloItem": "-Programas especializados"
+              }
+            ]
+          },
+          {
+            "idCard": 3,
+            "urlImagenCard": "/img/bioingenieria.png",
+            "nombreCard": "Bioingeniería",
+            "items": [
+              {
+                "idItem": 1,
+                "tituloItem": "-Genómica"
+              },
+              {
+                "idItem": 2,
+                "tituloItem": "-Bioinformática"
+              },
+              {
+                "idItem": 3,
+                "tituloItem": "-Medicina personalizada"
+              }
+            ]
+          },
+          {
+            "idCard": 4,
+            "urlImagenCard": "/img/ciberseguridad.png",
+            "nombreCard": "Ciberseguridad",
+            "items": [
+              {
+                "idItem": 1,
+                "tituloItem": "-Protección de Datos Sensibles"
+              },
+              {
+                "idItem": 2,
+                "tituloItem": "-Seguridad en Redes"
+              },
+              {
+                "idItem": 3,
+                "tituloItem": "-Otros"
+              }
+            ]
+          },
+          {
+            "idCard": 5,
+            "urlImagenCard": "/img/marketing_digital.png",
+            "nombreCard": "Marketing Digital",
+            "items": [
+              {
+                "idItem": 1,
+                "tituloItem": "-SEO (Optimización para Motores de Búsqueda)"
+              },
+              {
+                "idItem": 2,
+                "tituloItem": "-Publicidad en Línea (PPC)"
+              },
+              {
+                "idItem": 3,
+                "tituloItem": "-Otros"
+              }
+            ]
+          },
+          {
+            "idCard": 6,
+            "urlImagenCard": "/img/asistencia_it.png",
+            "nombreCard": "Asistencia IT",
+            "items": [
+              {
+                "idItem": 1,
+                "tituloItem": "-Soporte Técnico Remoto"
+              },
+              {
+                "idItem": 2,
+                "tituloItem": "-Desarrollo FrontEnd"
+              },
+              {
+                "idItem": 3,
+                "tituloItem": "-Otros"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "idSeccionCard": 2,
+        "nombreSeccionCard": "Nuestros Productos",
+        "cards": [
+          {
+            "idCard": 1,
+            "urlImagenCard": "/img/robot.png",
+            "nombreCard": "ChatBot",
+            "items": [
+              {
+                "idItem": 1,
+                "tituloItem": "-Desarrollo BackEnd"
+              },
+              {
+                "idItem": 2,
+                "tituloItem": "-Desarrollo FrontEnd"
+              },
+              {
+                "idItem": 3,
+                "tituloItem": "-Programas especializados"
+              }
+            ]
+          },
+          {
+            "idCard": 2,
+            "urlImagenCard": "/img/robot.png",
+            "nombreCard": "Central de turnos",
+            "items": [
+              {
+                "idItem": 1,
+                "tituloItem": "-Desarrollo BackEnd"
+              },
+              {
+                "idItem": 2,
+                "tituloItem": "-Desarrollo FrontEnd"
+              },
+              {
+                "idItem": 3,
+                "tituloItem": "-Programas especializados"
+              }
+            ]
+          },
+          {
+            "idCard": 3,
+            "urlImagenCard": "/img/robot.png",
+            "nombreCard": "Shoper",
+            "items": [
+              {
+                "idItem": 1,
+                "tituloItem": "-Desarrollo BackEnd"
+              },
+              {
+                "idItem": 2,
+                "tituloItem": "-Desarrollo FrontEnd"
+              },
+              {
+                "idItem": 3,
+                "tituloItem": "-Programas especializados"
+              }
+            ]
+          },
+          {
+            "idCard": 4,
+            "urlImagenCard": "/img/robot.png",
+            "nombreCard": "Recetas online",
+            "items": [
+              {
+                "idItem": 1,
+                "tituloItem": "-Desarrollo BackEnd"
+              },
+              {
+                "idItem": 2,
+                "tituloItem": "-Desarrollo FrontEnd"
+              },
+              {
+                "idItem": 3,
+                "tituloItem": "-Programas especializados"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+      "idSeccionDesplegable":1,"nombreSeccionDesplegable": "Conocé nuestro secreto de éxito", "desplegables": [
+        {"textoDesplegable": "Nuestros Valores", "items": [
+          {"tituloItem": "¡Somos más capaces juntos!", "subTituloItem": "En la inclusión y respeto yace la autenticidad.<br/>Seguridad= buen ambiente laboral."},
+          {"tituloItem": "Inclusión", "subTituloItem": "En la inclusión y respeto yace la autenticidad.<br/>Seguridad= buen ambiente laboral."},
+          {"tituloItem": "Impacto Social", "subTituloItem": "Nos comprometemos con la comunidad y a generar acciones positivas en la sociedad."},
+          {"tituloItem": "Sustentabilidad", "subTituloItem": "Promovemos tecnologías que ayudan a la comunidad, empresas y medio ambiente, sin comprometer la capacidad de las generaciones futuras."},
+          {"tituloItem": "Mentes creativas", "subTituloItem": "Libertad de acción. ¡Traemos innovación!"} 
+        ]}
+      ]
+  },
+  {
+    "idSeccionDesplegable":2, "desplegables": [
+          {"textoDesplegable": "Como lo logramos?", "items": [
+            {"tituloItem": "Visión", "subTituloItem": "Nuestras ideales nos motivan a aprender de forma colectiva, aprovechar las oportunidades y desarrollar el perfil ejemplar para nuestros colaboradores", "urlImagenItem": "../img/Vision.svg"},
+            {"tituloItem": "Igualdad", "subTituloItem": "Nos enfocamos en el crecimiento de nuestros colaboradores con igualdad de oportunidades, respeto, favoreciendo su crecimiento mediante un buen espacio laboral.", "urlImagenItem": "../img/Igualdad.svg"},
+            {"tituloItem": "Eficiencia", "subTituloItem": "Traemos soluciones, no problemas. Buscamos satisfacer las necesidades de los clientes y futuros clientes en un constante movimiento. Promovemos capacidad y actividad.", "urlImagenItem": "../img/Eficiencia.svg"}
+          ]}
+        ]
+  },
+  {
+      "idSeccionDesplegable":3, "desplegables": [
+          {"textoDesplegable": "Software para empresas", "items": [{"tituloItem": "En este mundo de crecimiento tecnológico, las empresas están obligadas a adaptarse, generando automatizaciones, sistemas de control/seguimiento. Te ayudamos a dar el salto en tecnología."}]},
+          {"textoDesplegable": "Web para emprendedores", "items": [{"tituloItem": "Poseemos planes económicos para emprendedores que quieran mostrar sus servicios o productos. Analizamos tu negocio para adaptar la mejor estructura de web. Ofrecemos páginas de embudo, institucionales, shopper, promoción de eventos."}]},
+          {"textoDesplegable": "Distribuidores oficiales de tecnologías", "items": [{"tituloItem": "Somos una empresa reconocida a nivel regional. Nos asociamos con empresas de tecnología que comparten nuestros propios valores. Distribuimos productos y brindamos asistencia tecnológica para mejorar la eficiencia de tu negocio."}]},
+          {"textoDesplegable": "Softwares para industria y agro", "items": [{"tituloItem": "Ofrecemos soluciones inteligentes y adaptadas a las necesidades específicas de tu negocio. Desde la gestión eficiente de la cadena de suministro hasta el monitoreo en tiempo real de los cultivos, nuestro software proporciona herramientas poderosas para optimizar procesos, aumentar la productividad y tomar decisiones informadas en un entorno dinámico y competitivo."}]},
+          {"textoDesplegable": "Sistemas de comunicación", "items": [{"tituloItem": "Prestamos asistencia a empresas que, por sus modelos de negocio, necesitan un sistema automatizado de respuesta (chatbot). Logramos generar una mayor fluidez en la comunicación, bajando costos de recursos humanos, aumentando ventas o confirmación de servicios."}]}
+      ]
+  },
+  {
+      "idSeccionDesplegable":4, "desplegables": [
+        {"textoDesplegable": "¿Cómo lo hacemos?", "items": [{"tituloItem": "Creamos algoritmos de análisis de datos hasta el diseño de interfaces de usuario intuitivas, nos comprometemos a proporcionar soluciones tecnológicas avanzadas que impulsen la innovación y el descubrimiento científico."}]}
+      ]
+  }
+]
